@@ -1,13 +1,88 @@
 {
     "atomType": "Molecule",
-    "name": "Maslow M Test Sign",
+    "name": "Maslow-M-Test-Sign",
     "x": 0,
     "y": 0,
     "uniqueID": "c5ac4a81-0180-4578-abaf-890664e77ecf",
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "54828d11-b199-49c1-be1b-16abb1945027",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Maslow-M",
+            "x": 0.2552910052910053,
+            "y": 0.5446927374301677,
+            "uniqueID": "f364eaa7-f8ec-4182-a3c7-cf7a2e605519",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "8bd69575-167a-415e-93af-5187ff1aecb1",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.28968253968253965,
+                    "y": 0.41899441340782123,
+                    "uniqueID": "6143aaab-d69f-4262-a877-d0d9edbe46d6",
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "MakerCAM Project.svg",
+                    "type": "SVG",
+                    "SVGwidth": 10
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "6143aaab-d69f-4262-a877-d0d9edbe46d6",
+                    "ap2ID": "8bd69575-167a-415e-93af-5187ff1aecb1"
+                }
+            ],
+            "parentRepo": {
+                "privateRepo": false,
+                "repoName": "Maslow-M",
+                "dateCreated": "2025-06-18T22:46:57Z",
+                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "b8ee3a55-1a3e-4671-9953-7f2e8695f621",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Maslow-M",
+                "topics": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739420",
+                "ranking": 0,
+                "searchField": "maslow-m barboursmith the maslow m logo ",
+                "owner": "BarbourSmith",
+                "description": "The Maslow M Logo",
+                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Maslow-M/master/project.svg?sanitize=true"
+            },
+            "unitsKey": "MM",
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
